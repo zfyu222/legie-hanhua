@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "source_sha256": "1e4120e65c70afff23de60eeef7e7dcbbe8afb3d1c12f061d0fa1a623f3848c0",
+  "translation_sha256": "20f59c6a4b40ea9fafcda25ed2328723eb082c42d2a6489350eda648e4a96dad",
+  "records": 20,
+  "semantic_review": "full",
+  "polish": true,
+  "revision": 2,
+  "glossary": {
+    "hash": "2f943af2726751e6495b608c8c40bfcd10034c9ea0d00af9ced491c6de900c1b",
+    "path": "glossary\\r2\\freeze_b7d3f2c3\\built\\glossary_reviewed.json",
+    "revision": 2
+  },
+  "ainiee": {
+    "actual_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "expected_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "license": "AGPL-3.0; Tools/AINiee/LICENSE",
+    "modules": {
+      "Domain/PromptBuilder/GlossaryHelper.py": "6b3072989b77c84787774439c79aaea7d4727fcda104667d8833b53bb490446f",
+      "Domain/TextProcessor/TextProcessor.py": "805f49f68302fab2c5832aad8c7597fb4c3382cea131618765248f30a5963eed",
+      "Infrastructure/LLMRequester/LLMClientFactory.py": "70d43af749640604813887241604edf0472a75afbbf106fb5e69cfd3753a1a4b",
+      "Infrastructure/LLMRequester/OpenaiRequester.py": "b2b1f5e6fd3a31727b2e1d2597e1bcca3e5e4db2cfec550ff6cfcd6a6cff3f79"
+    }
+  },
+  "path": "TranslateFiles/image-text/legie_images_text_translated.csv",
+  "quality_review": {
+    "report_hash": "091fbb2f28b45dfafa52ba894ba4a492474caecfc485f45919879cf46a7774c1",
+    "reviewer": "workflow:no-disputes"
+  },
+  "in_game_check": "pending_repack",
+  "mixed_language_audit": {
+    "path": "TranslateFiles/image-text/TranslateFiles/reports/mixed_language_audit.json",
+    "candidate_records": 0,
+    "status": "candidates_only"
+  }
+}

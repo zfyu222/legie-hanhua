@@ -1,0 +1,8 @@
+{
+  "official_page": "https://store.steampowered.com/app/426050/",
+  "official_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/426050/header.jpg?t=1724973754",
+  "reference": "steam-header.jpg",
+  "output": "title.png",
+  "method": "使用内置 imagegen 编辑 Steam 官方横幅，保留低多边形中世纪街景和旅店老板，以银色金属字绘制军团、LEGIE及子非鱼汉化。",
+  "visual_review": "passed"
+}

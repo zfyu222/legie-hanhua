@@ -1,0 +1,19 @@
+{
+  "script": "latin",
+  "images": {
+    "054.png": {"known_text": true, "risks": ["art", "puzzle"]},
+    "183.png": {"known_text": true, "risks": ["art", "handwriting"]},
+    "243.png": {"known_text": true, "risks": ["art", "rotated"]},
+    "256.png": {"known_text": true, "risks": ["rotated"]},
+    "257.png": {"known_text": true, "risks": ["rotated"]},
+    "258.png": {"known_text": true, "risks": ["rotated"]},
+    "259.png": {"known_text": true, "risks": ["rotated"]},
+    "260.png": {"known_text": true, "risks": ["rotated"]},
+    "261.png": {"known_text": true, "risks": ["rotated"]},
+    "262.png": {"known_text": true, "risks": ["rotated"]},
+    "263.png": {"known_text": true, "risks": ["rotated"]},
+    "264.png": {"known_text": true, "risks": ["rotated"]},
+    "265.png": {"known_text": true, "risks": ["rotated"]},
+    "497.png": {"known_text": true, "risks": ["art"]}
+  }
+}

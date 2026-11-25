@@ -1,0 +1,715 @@
+{
+  "schema": 2,
+  "csv_sha256": "1e4120e65c70afff23de60eeef7e7dcbbe8afb3d1c12f061d0fa1a623f3848c0",
+  "records": 20,
+  "regions": [
+    {
+      "csv_row": 1,
+      "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+      "region_id": "confirmed-d79ee6c2d747c20b-0",
+      "box": [
+        3.072,
+        14.848,
+        171.008,
+        88.064
+      ],
+      "sources": [
+        {
+          "path": "054.png",
+          "file_sha256": "005230e110162abc8e13b44f33f57968995f9cdc8d4b43549db37d9a62dc91de",
+          "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 54,
+            "texture_name": "drak.jpg",
+            "offset": 1951233,
+            "size": 35519
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\25.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 2,
+      "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+      "region_id": "confirmed-d79ee6c2d747c20b-1",
+      "box": [
+        4.096,
+        120.832,
+        169.472,
+        179.2
+      ],
+      "sources": [
+        {
+          "path": "054.png",
+          "file_sha256": "005230e110162abc8e13b44f33f57968995f9cdc8d4b43549db37d9a62dc91de",
+          "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 54,
+            "texture_name": "drak.jpg",
+            "offset": 1951233,
+            "size": 35519
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\25.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 3,
+      "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+      "region_id": "confirmed-d79ee6c2d747c20b-2",
+      "box": [
+        3.072,
+        217.088,
+        169.984,
+        283.136
+      ],
+      "sources": [
+        {
+          "path": "054.png",
+          "file_sha256": "005230e110162abc8e13b44f33f57968995f9cdc8d4b43549db37d9a62dc91de",
+          "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 54,
+            "texture_name": "drak.jpg",
+            "offset": 1951233,
+            "size": 35519
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\25.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 4,
+      "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+      "region_id": "confirmed-d79ee6c2d747c20b-3",
+      "box": [
+        9.728,
+        325.632,
+        60.928,
+        393.728
+      ],
+      "sources": [
+        {
+          "path": "054.png",
+          "file_sha256": "005230e110162abc8e13b44f33f57968995f9cdc8d4b43549db37d9a62dc91de",
+          "image_id": "d79ee6c2d747c20be2dab22e03760f1ed606137f5119c5547e6d684fdce07f31",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 54,
+            "texture_name": "drak.jpg",
+            "offset": 1951233,
+            "size": 35519
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\25.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 5,
+      "image_id": "55a5d2a02403bdd557c857d7d23162142247fd21ce6bca468c5af44ae0a88e21",
+      "region_id": "confirmed-55a5d2a02403bdd5-0",
+      "box": [
+        7.936,
+        80.896,
+        119.04,
+        430.08
+      ],
+      "sources": [
+        {
+          "path": "243.png",
+          "file_sha256": "5ef6294abb8e3b16ba6767548eb17ed8cc4fdaaba02286c7a0e04f84d7e4975f",
+          "image_id": "55a5d2a02403bdd557c857d7d23162142247fd21ce6bca468c5af44ae0a88e21",
+          "width": 128,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 243,
+            "texture_name": "legie.tga",
+            "offset": 6369021,
+            "size": 75177
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\5.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 6,
+      "image_id": "b29460af9d21d5fa04d3ed40a7956d9a31e41354fdbbc8a9cbfa4d88548fede0",
+      "region_id": "confirmed-b29460af9d21d5fa-0",
+      "box": [
+        12.992,
+        33.024,
+        49.984,
+        221.952
+      ],
+      "sources": [
+        {
+          "path": "256.png",
+          "file_sha256": "72c1e3e9dec244113eea46654e95b74c5e3ee85b3321b3360114812d526a1334",
+          "image_id": "b29460af9d21d5fa04d3ed40a7956d9a31e41354fdbbc8a9cbfa4d88548fede0",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 256,
+            "texture_name": "m_0.tga",
+            "offset": 7051171,
+            "size": 21629
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\12.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 7,
+      "image_id": "e13fbd651140c02c2cc6739ed9c9e71729162cc1f500cc87e13777371a5b823d",
+      "region_id": "confirmed-e13fbd651140c02c-0",
+      "box": [
+        16.0,
+        32.0,
+        48.0,
+        224.0
+      ],
+      "sources": [
+        {
+          "path": "257.png",
+          "file_sha256": "8ee04d38ac49c321bc7d32488fcc30954df40a9a21a6f58084734cbedc3f57e4",
+          "image_id": "e13fbd651140c02c2cc6739ed9c9e71729162cc1f500cc87e13777371a5b823d",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 257,
+            "texture_name": "m_0e.tga",
+            "offset": 7072800,
+            "size": 19669
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\17.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 8,
+      "image_id": "551237a85a229105f480f92867ebc64514b65d33cb8d049749da38e5bcd6a886",
+      "region_id": "confirmed-551237a85a229105-0",
+      "box": [
+        14.016,
+        52.992,
+        49.984,
+        203.008
+      ],
+      "sources": [
+        {
+          "path": "258.png",
+          "file_sha256": "2583563df0897fa1de9156c73610441a73474c92da7d4ddd28402895f0d9991d",
+          "image_id": "551237a85a229105f480f92867ebc64514b65d33cb8d049749da38e5bcd6a886",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 258,
+            "texture_name": "m_1.tga",
+            "offset": 7092469,
+            "size": 65580
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\4.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 9,
+      "image_id": "122687ce360db0bc96d5d5957a194e0938418a9ca377de35d371a90fd767064d",
+      "region_id": "confirmed-122687ce360db0bc-0",
+      "box": [
+        16.0,
+        78.08,
+        46.976,
+        177.92
+      ],
+      "sources": [
+        {
+          "path": "259.png",
+          "file_sha256": "1f305d298b4e01625f0ca1f78e05c1b9b0b86bcfad650c04a81bec7c055b9e45",
+          "image_id": "122687ce360db0bc96d5d5957a194e0938418a9ca377de35d371a90fd767064d",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 259,
+            "texture_name": "m_1e.tga",
+            "offset": 7158049,
+            "size": 10076
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\21.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 10,
+      "image_id": "8e14402166dbf9fdb31fea3db3fc198c130280da919f5d808e6586db97e3a6fe",
+      "region_id": "confirmed-8e14402166dbf9fd-0",
+      "box": [
+        12.992,
+        61.952,
+        49.984,
+        197.12
+      ],
+      "sources": [
+        {
+          "path": "260.png",
+          "file_sha256": "2ccf2a75546d0dcc1dcf9d3aad7a9e1f8f3b0f4dbb9c7cd320d0d210e64657e6",
+          "image_id": "8e14402166dbf9fdb31fea3db3fc198c130280da919f5d808e6586db97e3a6fe",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 260,
+            "texture_name": "m_2.tga",
+            "offset": 7168125,
+            "size": 16092
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\10.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 11,
+      "image_id": "b439c00c7951031e378d57cc4df328cbd435ea3b4bd55e68dc07ae4c24f4a2b0",
+      "region_id": "confirmed-b439c00c7951031e-0",
+      "box": [
+        14.976,
+        81.92,
+        48.0,
+        174.08
+      ],
+      "sources": [
+        {
+          "path": "261.png",
+          "file_sha256": "b4804cb6576eedf3f3bccfba9cd469596aa4939f1da7c30eb0e1a2a396388660",
+          "image_id": "b439c00c7951031e378d57cc4df328cbd435ea3b4bd55e68dc07ae4c24f4a2b0",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 261,
+            "texture_name": "m_2e.tga",
+            "offset": 7184217,
+            "size": 10242
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\23.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 12,
+      "image_id": "ad69fefc6c84490975b0f4191a4acdd5d2f55eb8b26317f1aa519c89cce18927",
+      "region_id": "confirmed-ad69fefc6c844909-0",
+      "box": [
+        12.032,
+        3.072,
+        51.968,
+        252.928
+      ],
+      "sources": [
+        {
+          "path": "262.png",
+          "file_sha256": "8a34c1bcd919772393631f0496eda7735f166ef59d45718e2f1272be12fd3fb8",
+          "image_id": "ad69fefc6c84490975b0f4191a4acdd5d2f55eb8b26317f1aa519c89cce18927",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 262,
+            "texture_name": "m_3.tga",
+            "offset": 7194459,
+            "size": 29742
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\11.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 13,
+      "image_id": "ab7a6fa76cd032fd8f13a56f49802aea48cd772759205924a9fbc8e880f2fac3",
+      "region_id": "confirmed-ab7a6fa76cd032fd-0",
+      "box": [
+        14.976,
+        50.944,
+        49.024,
+        204.032
+      ],
+      "sources": [
+        {
+          "path": "263.png",
+          "file_sha256": "36ab73ce2bde3ef367fc5cadffdb6c489959ad59155da16643290808adc3d370",
+          "image_id": "ab7a6fa76cd032fd8f13a56f49802aea48cd772759205924a9fbc8e880f2fac3",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 263,
+            "texture_name": "m_3e.tga",
+            "offset": 7224201,
+            "size": 17474
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\22.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 14,
+      "image_id": "cac2ecede9d2ce98e20d2f1b7d51b518a11ce04d682cbc2023b475e0c455fcca",
+      "region_id": "confirmed-cac2ecede9d2ce98-0",
+      "box": [
+        12.992,
+        59.904,
+        51.008,
+        196.096
+      ],
+      "sources": [
+        {
+          "path": "264.png",
+          "file_sha256": "ab9677b9bcb56e93035c7f028fae595aff7c506780b7205f9468006fad83d9ae",
+          "image_id": "cac2ecede9d2ce98e20d2f1b7d51b518a11ce04d682cbc2023b475e0c455fcca",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 264,
+            "texture_name": "m_4.tga",
+            "offset": 7241675,
+            "size": 18533
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\24.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 15,
+      "image_id": "111d527213bc257a7023a2a9e2564c530262d9f8bffc4a08a2361a326ca9bfa9",
+      "region_id": "confirmed-111d527213bc257a-0",
+      "box": [
+        14.976,
+        82.944,
+        48.0,
+        172.032
+      ],
+      "sources": [
+        {
+          "path": "265.png",
+          "file_sha256": "988c3f8e4097556033be76a6cf703c92fad9dbc16becda7d20656c63004e658f",
+          "image_id": "111d527213bc257a7023a2a9e2564c530262d9f8bffc4a08a2361a326ca9bfa9",
+          "width": 64,
+          "height": 256,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 265,
+            "texture_name": "m_4e.tga",
+            "offset": 7260208,
+            "size": 10148
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "旋转贴图后，完整标题或菜单标签清楚可见。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\20.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 16,
+      "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+      "region_id": "confirmed-07ef8e8e578c70a1-0",
+      "box": [
+        158.72,
+        302.08,
+        326.144,
+        360.96
+      ],
+      "sources": [
+        {
+          "path": "385.png",
+          "file_sha256": "d72b5a02544e2b94c802b3816bb6e94050a81711940d92ac82ea821149b0a1c2",
+          "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 385,
+            "texture_name": "reklama.jpg",
+            "offset": 10125120,
+            "size": 76443
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\1.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 17,
+      "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+      "region_id": "confirmed-07ef8e8e578c70a1-1",
+      "box": [
+        174.08,
+        378.368,
+        207.36,
+        403.456
+      ],
+      "sources": [
+        {
+          "path": "385.png",
+          "file_sha256": "d72b5a02544e2b94c802b3816bb6e94050a81711940d92ac82ea821149b0a1c2",
+          "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 385,
+            "texture_name": "reklama.jpg",
+            "offset": 10125120,
+            "size": 76443
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\1.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 18,
+      "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+      "region_id": "confirmed-07ef8e8e578c70a1-2",
+      "box": [
+        294.4,
+        348.16,
+        317.44,
+        367.104
+      ],
+      "sources": [
+        {
+          "path": "385.png",
+          "file_sha256": "d72b5a02544e2b94c802b3816bb6e94050a81711940d92ac82ea821149b0a1c2",
+          "image_id": "07ef8e8e578c70a1e417d3cf14de1390f80c0cc224806fd19ca6fc540d3a1da4",
+          "width": 512,
+          "height": 512,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 385,
+            "texture_name": "reklama.jpg",
+            "offset": 10125120,
+            "size": 76443
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\1.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 19,
+      "image_id": "d8e1737438cfc30395dec584a3676b7b15d500aae01dccf1374a704e70b512b0",
+      "region_id": "confirmed-d8e1737438cfc303-0",
+      "box": [
+        87.04,
+        0.0,
+        420.864,
+        64.0
+      ],
+      "sources": [
+        {
+          "path": "497.png",
+          "file_sha256": "b4ddeac67851bec8403c8fdaa4eb4b75967c8b83d826754c063912c1528a0e68",
+          "image_id": "d8e1737438cfc30395dec584a3676b7b15d500aae01dccf1374a704e70b512b0",
+          "width": 512,
+          "height": 64,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 497,
+            "texture_name": "sudokop.jpg",
+            "offset": 12589715,
+            "size": 6341
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\26.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    },
+    {
+      "csv_row": 20,
+      "image_id": "8a0461816e57cd7139d1a26ff37fd86fe1d6dd5085d34d2bfdf9d958199c9993",
+      "region_id": "confirmed-8a0461816e57cd71-0",
+      "box": [
+        0.0,
+        0.0,
+        16.0,
+        16.0
+      ],
+      "sources": [
+        {
+          "path": "528.png",
+          "file_sha256": "2e5a0e73f5391cef5241bfed56a04d853294f94436c7a48ba1e60fef92e39465",
+          "image_id": "8a0461816e57cd7139d1a26ff37fd86fe1d6dd5085d34d2bfdf9d958199c9993",
+          "width": 16,
+          "height": 16,
+          "provenance": {
+            "asset": "legie.sud",
+            "entry_index": 528,
+            "texture_name": "un.tga",
+            "offset": 12970421,
+            "size": 412
+          }
+        }
+      ],
+      "confirmation": {
+        "status": "agent_visual_confirmed",
+        "reason": "原图放大后确认字标、字形或数字的位置和笔画。",
+        "reviewer_type": "conversation_agent",
+        "model_label": null,
+        "evidence": "tiered\\agent\\86556d30bc48c6557839e84b65fe0bcce37d8a5ba7d808241fcf2bfd325fcfd9\\9.png",
+        "package_hash": "cab0ff017c1bbb250725a437c5b10daee19e003cec101b0bf058a8b8daef28b3"
+      }
+    }
+  ],
+  "scan_hash": "a5d3da276d0d18bfb13eca59637d387d9ab1286a8e70714261f7ced8c147bc67",
+  "plan_hash": "325faba6793db794272425cf32dab59d342c4cfae7ee09ff61f7f32875ba3d0e",
+  "unresolved_image_ids": [
+    "63ff8f96f644cdf5d6cd13ab76f7adbe4a4fb8e3a93f5cdc9d3e3dee8dd2515f",
+    "bce01c0ef3dff836921d20a24635c9a443e30879bb42f02038f27aea67de50c1"
+  ],
+  "scope": "visually_confirmed_subset",
+  "human_approval": false
+}
