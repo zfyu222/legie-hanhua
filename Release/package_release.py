@@ -48,7 +48,7 @@ def main():
     command = [sys.executable, str(WORKSPACE / ".agents/skills/game-release-patch/scripts/create_release_patch.py"),
                "--project", str(PROJECT)]
     for key, value in metadata.items():
-        if key != "launch_mode":
+        if key not in {"launch_mode", "display_tip", "display_tool_url"}:
             command += ["--" + key.replace("_", "-"), value]
     for name, path in kit.items():
         command += ["--include", f"{path}={name}"]
@@ -62,8 +62,15 @@ def main():
         for name in ("补丁说明.txt", "SHA256SUMS.txt"):
             data = initial.read(name)
             if name == "补丁说明.txt":
-                text = data.decode("utf-8-sig")
+                text = data.decode("utf-8-sig").replace("\r\n", "\n")
                 text = text.replace("- v1.0（2026-11-26）：首次发布。", "v1.0：首次发布")
+                if metadata.get("display_tip"):
+                    marker = "\n\n发布日期："
+                    before, publication = text.split(marker, 1)
+                    text = (
+                        f"{before}\n\n温馨提示\n{metadata['display_tip']}\n"
+                        f"Magpie 官方下载: {metadata['display_tool_url']}{marker}{publication}"
+                    )
                 data = text.encode("utf-8-sig")
             (files / name).write_bytes(data)
         manifest = json.loads(initial.read("PATCH_MANIFEST.json"))
