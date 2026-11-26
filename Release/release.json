@@ -3,7 +3,7 @@
   "chinese_name": "军团",
   "english_name": "LEGIE",
   "launch_mode": "original_exe",
-  "version": "1.1",
+  "version": "1.0",
   "introduction": "一款融合第一人称冒险与网格移动地牢探索的角色扮演游戏。玩家在中世纪捷克小镇伊莱姆尼采及周边探索，与镇民交谈、讨价还价、解谜和战斗，逐步揭开旅店老板、啤酒和魔鬼的故事。",
   "coverage": "简体中文对白、物品名与描述、场景互动提示、结局，以及标题和菜单贴图。",
   "game_version": "Steam Build 2445454",
@@ -16,7 +16,6 @@
   "download_url": "https://github.com/zfyu222/legie-hanhua/releases/",
   "mirror_url": "https://pan.baidu.com/s/58rmIwfil-FRZfSda5uAbLg",
   "share_name": "LEGIE",
-  "changes": "补丁说明新增 Magpie 窗口缩放提示和官方下载地址。",
   "display_tip": "LEGIE 的原生窗口较小。想获得更舒适的大屏体验，推荐使用 Magpie，将游戏窗口按原比例放大。",
   "display_tool_url": "https://github.com/Blinue/Magpie/releases/latest"
 }

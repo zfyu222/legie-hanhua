@@ -1,14 +1,72 @@
 """Gate, stage and verify the standalone VCDIFF release ZIP."""
+import argparse
 import json
+import re
 import subprocess
 import sys
 import zipfile
+from pathlib import PurePosixPath
 
 from build_kit import KIT, PROJECT, RELEASE, WORKSPACE, sha
 
 
+def format_guide(data, metadata):
+    text = data.decode("utf-8-sig").replace("\r\n", "\n")
+    text = text.replace("- v1.0（2026-11-26）：首次发布。", "v1.0：首次发布")
+    if metadata.get("display_tip"):
+        text = re.sub(r"\n\n温馨提示\n[^\n]+\nMagpie 官方下载: [^\n]+", "", text)
+        marker = "\n\n补丁升级\n"
+        before, after = text.split(marker, 1)
+        text = (
+            f"{before}\n\n温馨提示\n{metadata['display_tip']}\n"
+            f"Magpie 官方下载: {metadata['display_tool_url']}{marker}{after}"
+        )
+    return text.encode("utf-8-sig")
+
+
+def refresh_guide(archive, metadata):
+    """Refresh the guide while keeping the released paths and payload identical."""
+    files = archive.parent / "Files"
+    temporary = archive.with_suffix(".zip.tmp")
+    with zipfile.ZipFile(archive) as current:
+        if current.testzip() is not None:
+            raise ValueError("Cannot refresh an archive with invalid CRCs")
+        contents = {name: current.read(name) for name in current.namelist()}
+        if len(contents) != len(current.namelist()):
+            raise ValueError("Duplicate archive entries")
+    manifest = json.loads(contents["PATCH_MANIFEST.json"])
+    expected = {record.get("archive_path", record["path"])
+                for record in manifest["files"] + manifest["auxiliary"]}
+    if expected | {"补丁说明.txt", "SHA256SUMS.txt", "PATCH_MANIFEST.json"} != contents.keys():
+        raise ValueError("Archive members do not match the release manifest")
+    contents["补丁说明.txt"] = format_guide(contents["补丁说明.txt"], metadata)
+    for name, data in contents.items():
+        path = PurePosixPath(name)
+        if path.is_absolute() or ".." in path.parts or ":" in name or "\\" in name:
+            raise ValueError(f"Invalid archive path: {name}")
+        target = files.joinpath(*path.parts)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+    with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED) as final:
+        for name in contents:
+            final.write(files / name, name)
+    with zipfile.ZipFile(temporary) as final:
+        if final.testzip() is not None or any(final.read(name) != data for name, data in contents.items()):
+            raise ValueError("Guide refresh verification failed")
+    temporary.replace(archive)
+    print("Refreshed", archive.name, sha(archive))
+
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh-guide", action="store_true")
+    options = parser.parse_args()
     metadata = json.loads((RELEASE / "release.json").read_text("utf-8"))
+    dispatch = PROJECT / "Dispatch"
+    archive = dispatch / f'{metadata["game_name"]}_子非鱼汉化{metadata["version"]}.zip'
+    if options.refresh_guide:
+        refresh_guide(archive, metadata)
+        return
     evidence = [PROJECT / "Analysis" / name for name in
                 ("publication-authorization.json", "installer-validation.json")]
     verify = json.loads(evidence[1].read_text("utf-8"))
@@ -55,23 +113,12 @@ def main():
     subprocess.run(command + ["--dry-run"], check=True)
     subprocess.run(command, check=True)
 
-    dispatch = PROJECT / "Dispatch"
     files = dispatch / "Files"
-    archive = dispatch / f'{metadata["game_name"]}_子非鱼汉化{metadata["version"]}.zip'
     with zipfile.ZipFile(archive) as initial:
         for name in ("补丁说明.txt", "SHA256SUMS.txt"):
             data = initial.read(name)
             if name == "补丁说明.txt":
-                text = data.decode("utf-8-sig").replace("\r\n", "\n")
-                text = text.replace("- v1.0（2026-11-26）：首次发布。", "v1.0：首次发布")
-                if metadata.get("display_tip"):
-                    marker = "\n\n发布日期："
-                    before, publication = text.split(marker, 1)
-                    text = (
-                        f"{before}\n\n温馨提示\n{metadata['display_tip']}\n"
-                        f"Magpie 官方下载: {metadata['display_tool_url']}{marker}{publication}"
-                    )
-                data = text.encode("utf-8-sig")
+                data = format_guide(data, metadata)
             (files / name).write_bytes(data)
         manifest = json.loads(initial.read("PATCH_MANIFEST.json"))
     manifest["install_mode"] = "delta_script"

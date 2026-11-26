@@ -3,7 +3,7 @@
 - 游戏名为 LEGIE，汉化标题暂用《军团》。
 - 原语言为捷克语。Steam 版提供英语和捷克语界面及字幕。
 
-面向汉化维护与二次开发。玩家可在 [GitHub Releases](https://github.com/zfyu222/legie-hanhua/releases/) 获取补丁及安装说明，v1.1 增补了 Magpie 窗口缩放说明。
+面向汉化维护与二次开发。玩家可在 [GitHub Releases](https://github.com/zfyu222/legie-hanhua/releases/) 获取补丁及安装说明，当前公开版本为 v1.0，安装说明附有 Magpie 窗口缩放建议。
 
 ## 修改译文
 
